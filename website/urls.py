@@ -6,7 +6,9 @@ app_name = 'website'
 
 urlpatterns = [
     path('', index_view, name = 'index'),
-    path('about', about_view, name = 'about'),
-    path('services', service_view, name = 'services'),
+    path('languages', languages_view, name = 'languages'),
+    path('education', education_view, name = 'education'),
+    path('skills', skills_view, name = 'skills'),
+    path('projects', projects_view, name = 'projects'),
     path('contact', contact_view, name = 'contact'),
 ]

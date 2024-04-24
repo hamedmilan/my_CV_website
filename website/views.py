@@ -4,12 +4,18 @@ def index_view(request):
     return render(request, 'website/index.html')
 
 
-def about_view(request):
-    return render(request, 'website/about-us.html')
+def languages_view(request):
+    return render(request, 'website/languages.html')
 
 
-def service_view(request):
-    return render(request, 'website/services.html')
+def education_view(request):
+    return render(request, 'website/education.html')
+
+def skills_view(request):
+    return render(request, 'website/skills.html')
+
+def projects_view(request):
+    return render(request, 'website/projects.html')
 
 
 def contact_view(request):
