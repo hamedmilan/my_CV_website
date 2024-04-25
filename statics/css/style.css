@@ -3987,7 +3987,10 @@ h6 {
   color: #766dff;
 }
 
-
+.mytabs_area .tabs_inner .tab-content .media-body {
+  align-items: center;
+  margin-left: 40px;
+}
 
 /* End Footer Area css
 ============================================================================================ */
