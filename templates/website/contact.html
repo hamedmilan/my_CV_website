@@ -23,26 +23,30 @@
 <!--================Contact Area =================-->
 <section class="contact_area p_120">
     <div class="container">
-        <div id="mapBox" class="mapBox" data-lat="40.701083" data-lon="-74.1522848" data-zoom="13"
-            data-info="PO Box CT16122 Collins Street West, Victoria 8007, Australia." data-mlat="40.701083"
-            data-mlon="-74.1522848">
+        <div class="container" style="display: flex; justify-content: center;">
+            <div class="iframe-container">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3813.6927314281515!2d23.856423677697393!3d61.44982857570994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x468edfb8267b76bd%3A0x31a8be9d85fb07d9!2sTampere%20University%2C%20Hervanta%20Campus!5e0!3m2!1sen!2sfi!4v1714040695007!5m2!1sen!2sfi"
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
         </div>
         <div class="row">
             <div class="col-lg-3">
                 <div class="contact_info">
                     <div class="info_item">
                         <i class="lnr lnr-home"></i>
-                        <h6>California, United States</h6>
-                        <p>Santa monica bullevard</p>
+                        <h6>Tampere, Finland</h6>
+                        <p>Orivedenkatu 5 E 265</p>
                     </div>
                     <div class="info_item">
                         <i class="lnr lnr-phone-handset"></i>
-                        <h6><a href="#">00 (440) 9865 562</a></h6>
+                        <h6><a href="#">(+358) 46 683 5578</a></h6>
                         <p>Mon to Fri 9am to 6 pm</p>
                     </div>
                     <div class="info_item">
                         <i class="lnr lnr-envelope"></i>
-                        <h6><a href="#">support@colorlib.com</a></h6>
+                        <h6><a href="#">hamed.milanchian@gmail.com</a></h6>
                         <p>Send us your query anytime!</p>
                     </div>
                 </div>
@@ -117,7 +121,7 @@
 <script src="{% static 'js/jquery.validate.min.js' %}"></script>
 <script src="{% static 'js/contact.js' %}"></script>
 <!--gmaps Js-->
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCjCGmQ0Uq4exrzdcL6rvxywDDOvfAu6eE"></script>
+
 <script src="{% static 'js/gmaps.min.js' %}"></script>
 
 {% endblock %}
